@@ -27,4 +27,7 @@ The dataset used for this project comes the [Kaggle Dataset: Harry Potter Books 
 >This data can be used to do text mining, various NLP models like sentiment analysis, word embedding, even chatbot to answer the Harry Potter fans.
 
 ## Repository
-**TO BE UPDATED...**
+* img/EDA: Screenshots and relevant images used when performing Exploratory Data Analysis (EDA).
+* data/processed: DataFrames produces by me that are ready to be used for modelling.
+* data/raw: Raw datasets that need to be transformed before being used for modelling.
+* create-full-df.ipynb: Notebook used to consolidate the text from all seven books into one usable DataFrame.
