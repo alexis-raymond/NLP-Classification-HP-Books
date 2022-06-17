@@ -28,6 +28,7 @@ The dataset used for this project comes the [Kaggle Dataset: Harry Potter Books 
 
 ## Repository
 * img/EDA: Screenshots and relevant images used when performing Exploratory Data Analysis (EDA).
-* data/processed: DataFrames produces by me that are ready to be used for modelling.
+* data/processed: Datasets produced by me that are ready to be used for modelling.
 * data/raw: Raw datasets that need to be transformed before being used for modelling.
 * create-full-df.ipynb: Notebook used to consolidate the text from all seven books into one usable DataFrame.
+* train_test_split.ipynb: Notebook used to split the full set of sentences into training, validation and testing datasets.
