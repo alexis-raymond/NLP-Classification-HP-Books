@@ -12,7 +12,7 @@ Now, I will test my understanding of the concepts covered by working with the Ha
 ## Use Cases
 I will explore two use cases as part of this learning project:
 1. **Text Classification**: Given a sentence from any of the seven books, the model should return the book in which it appeared. This will practice text classification, a similar process to sentiment analysis.
-2. **Document Search**: Given any sentence, the model should return a similar, but different sentence. This will practice vector space models and K-Nearest Neighbors.
+2. **Document Search**: ~~Given any sentence, the model should return a similar, but different sentence. This will practice vector space models and K-Nearest Neighbors.~~ Given any sentence, the model should return the following sentence in the book. This will practice vector space models and K-Nearest Neighbors. The initial intent was to return a similar sentence, but after consideration this was not practical as I do not have labeled data for this type of operation. I don't expect this use case to return a strong accuracy, but it will help me put in practice vector searches, which is the goal of this project.
 
 ## Dataset
 The dataset used for this project comes the [Kaggle Dataset: Harry Potter Books Corpora (Part 1 - 7)](https://www.kaggle.com/datasets/balabaskar/harry-potter-books-corpora-part-1-7) published by BALA BASKAR. The dataset is structured as seven text files, containing the full text corpus for each of the seven books.
@@ -32,3 +32,4 @@ The dataset used for this project comes the [Kaggle Dataset: Harry Potter Books 
 * data/raw: Raw datasets that need to be transformed before being used for modelling.
 * create-full-df.ipynb: Notebook used to consolidate the text from all seven books into one usable DataFrame.
 * train_test_split.ipynb: Notebook used to split the full set of sentences into training, validation and testing datasets.
+* model1-custom-naive.ipynb: Notebook used to create the first model to compare - a custom naive bayes algorithm.
