@@ -27,10 +27,10 @@ The dataset used for this project comes the [Kaggle Dataset: Harry Potter Books 
 >This data can be used to do text mining, various NLP models like sentiment analysis, word embedding, even chatbot to answer the Harry Potter fans.
 
 ## Repository
-* img/EDA: Screenshots and relevant images used when performing Exploratory Data Analysis (EDA).
-* data/processed: Datasets produced by me that are ready to be used for modelling.
-* data/raw: Raw datasets that need to be transformed before being used for modelling.
-* create-full-df.ipynb: Notebook used to consolidate the text from all seven books into one usable DataFrame.
-* train_test_split.ipynb: Notebook used to split the full set of sentences into training, validation and testing datasets.
-* model1-custom-naive.ipynb: Notebook used to create the first model to compare - a custom naive bayes algorithm.
-* utils.py: Python file with common functions used across notebooks.
+* [create-full-df.ipynb](create-full-df.ipynb): Notebook used to consolidate the text from all seven books into one usable DataFrame.
+* [train_test_split.ipynb](train_test_split.ipynb): Notebook used to split the full set of sentences into training, validation and testing datasets.
+* [model1-custom-naive.ipynb](model1-custom-naive.ipynb): Notebook used to create the first model to compare - a custom naive bayes algorithm.
+* [utils.py](utils.py): Python file with common functions used across notebooks.
+* [img/EDA](/img/EDA/): Screenshots and relevant images used when performing Exploratory Data Analysis (EDA).
+* [data/processed](/data/processed): Datasets produced by me that are ready to be used for modelling.
+* [data/raw](/data/raw): Raw datasets that need to be transformed before being used for modelling.
