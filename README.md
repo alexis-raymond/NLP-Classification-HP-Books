@@ -33,3 +33,4 @@ The dataset used for this project comes the [Kaggle Dataset: Harry Potter Books 
 * create-full-df.ipynb: Notebook used to consolidate the text from all seven books into one usable DataFrame.
 * train_test_split.ipynb: Notebook used to split the full set of sentences into training, validation and testing datasets.
 * model1-custom-naive.ipynb: Notebook used to create the first model to compare - a custom naive bayes algorithm.
+* utils.py: Python file with common functions used across notebooks.
