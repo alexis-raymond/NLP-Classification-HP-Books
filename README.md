@@ -9,6 +9,8 @@ In 2022, I challenged myself with deepening my understanding of NLP techniques. 
 
 Now, I will test my understanding of the concepts covered by working with the Harry Potter Books - my all-time favourite series - on two *fun* use cases. Following this project, I will take my learnings to a more *serious* use case about financial news sentiment analysis.
 
+**Note:** While I initially planned to explore the dataset through two use cases, I since revised to only pursue the first use case on text classification. The rationale behind this decision is that this use case seems more relevant to what is seen in the *real world* and going through all the steps of the lifecycle while maintaining documentation took more time than expected. While I am eager to start the second course in the specialization, I will keep the second use case in my backlog for future learning.
+
 ## Use Cases
 I will explore two use cases as part of this learning project:
 1. **Text Classification**: Given a sentence from any of the seven books, the model should return the book in which it appeared. This will practice text classification, a similar process to sentiment analysis.
@@ -30,6 +32,7 @@ The dataset used for this project comes the [Kaggle Dataset: Harry Potter Books 
 * [create-full-df.ipynb](create-full-df.ipynb): Notebook used to consolidate the text from all seven books into one usable DataFrame.
 * [train_test_split.ipynb](train_test_split.ipynb): Notebook used to split the full set of sentences into training, validation and testing datasets.
 * [model1-custom-naive.ipynb](model1-custom-naive.ipynb): Notebook used to create the first model to compare - a custom naive bayes algorithm.
+* [pre-built-models.ipynb](pre-built-models.ipynb): Notebook used to create the second and third models to compare using the SkLearn library.
 * [utils.py](utils.py): Python file with common functions used across notebooks.
 * [img/EDA](/img/EDA/): Screenshots and relevant images used when performing Exploratory Data Analysis (EDA).
 * [data/processed](/data/processed): Datasets produced by me that are ready to be used for modelling.
