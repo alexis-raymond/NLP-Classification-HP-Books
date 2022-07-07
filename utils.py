@@ -5,6 +5,7 @@ from nltk.tokenize import word_tokenize
 from nltk.stem import PorterStemmer
 from nltk.corpus import stopwords
 import string
+import numpy as np
 
 # define sentence processing function
 def process_sentence (txt):
@@ -39,8 +40,9 @@ def process_sentence (txt):
             
     return txt_processed
 
+# [ARCHIVE] this function has been updated with a newer, more efficient approach
 # define accuracy calculation function
-def calc_accuracy (real, prediction):
+def calc_accuracy_legacy (real, prediction):
     """
     Calculates the accuracy of the model in predicting the book in which the sentence appeared.
     
@@ -64,3 +66,19 @@ def calc_accuracy (real, prediction):
     
     # return the accuracy (# of accurate predictions / number of predictions)
     return count_right / len(prediction)
+
+# define accuracy calculation function
+def calc_accuracy (real, prediction):
+    """
+    Calculates the accuracy of the model in predicting the book in which the sentence appeared.
+    
+    Parameters:
+        real (series): numpy series that holds the real book in which each sentence appears
+        prediction (series): numpy series that holds the predicted book in which each sentence appears
+        
+    Returns:
+        accuracy (float): accuracy metric of the classification model
+    """
+    
+    # return the accuracy (# of accurate predictions / number of predictions)
+    return np.mean(real == prediction)
