@@ -33,6 +33,7 @@ The dataset used for this project comes the [Kaggle Dataset: Harry Potter Books 
 * [train_test_split.ipynb](train_test_split.ipynb): Notebook used to split the full set of sentences into training, validation and testing datasets.
 * [model1-custom-naive.ipynb](model1-custom-naive.ipynb): Notebook used to create the first model to compare - a custom naive bayes algorithm.
 * [pre-built-models.ipynb](pre-built-models.ipynb): Notebook used to create the second and third models to compare using the SkLearn library.
+* [evaluate-models.ipynb](evaluate-models.ipynb): Notebook used to evaluate and compare the performance of each of the three models.
 * [utils.py](utils.py): Python file with common functions used across notebooks.
 * [img/EDA](/img/EDA/): Screenshots and relevant images used when performing Exploratory Data Analysis (EDA).
 * [data/processed](/data/processed): Datasets produced by me that are ready to be used for modelling.
